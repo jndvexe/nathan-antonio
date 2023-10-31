@@ -11,7 +11,7 @@ function App() {
       <Navigation />
       <Hero />
       <Projects />
-      <AboutMe />
+      
       <Footer />
     </body>
   );
