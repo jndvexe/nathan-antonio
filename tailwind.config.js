@@ -17,6 +17,8 @@ module.exports = {
       'Omsimity-card': "url('/public/Omsimity-Card.png')",
       'Manang-Beadies-card': "url('/Manang-beadies-card.png')",
       'Palista-card': "url('/public/Palista-card')",
+      'nathan-portrait': "url('/public/IMG_9981-removebg-preview 1.png')",
+      'nathan-yellow-shadow': "url('/public/Vectpr 2.png')",
     }
   },
   plugins: [],
