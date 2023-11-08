@@ -7,5 +7,7 @@ export const Hero = () => {
             <h1 className='text-6xl'>GRAPHICS, DESIGN<br />AND DEVELOPMENT</h1>
           </div>
       </section>
+
+      
     );
 };

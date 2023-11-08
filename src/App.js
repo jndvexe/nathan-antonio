@@ -1,19 +1,26 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navigation } from './Components/Navigation';
 import { Hero } from './Components/Hero';
-import { Projects } from './Components/Projects';
+import { AllProjects } from './Components/AllProjects';
 import { AboutMe } from './Components/AboutMe';
 import { Footer } from './Components/Footer';
 import './App.css';
 
 function App() {
   return (
-    <body className='bg-purple text-white px-12'>
-      <Navigation />
-      <Hero />
-      <Projects />
-      
-      <Footer />
-    </body>
+    <BrowserRouter>
+      <body className='bg-purple text-white px-12'>
+        <Navigation />
+          <Routes>
+            <Route path="/" element={<Hero />} />
+            <Route path="/all-projects" element={<AllProjects />} />
+            <Route path="/aboutme" element={<AboutMe />} />
+          </Routes>
+      </body>
+    
+    
+    </BrowserRouter>
+    
   );
 }
 

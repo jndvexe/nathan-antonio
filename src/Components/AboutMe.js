@@ -1,7 +1,5 @@
 export const AboutMe = () => {
     return (
-
-    
         <div className="relative mb-14">
 
           <div className="absolute inset-0 backdrop-blur-lg bg-cyan opacity-[.15] rounded-lg blur-[2px] py-[250px] text-white">
