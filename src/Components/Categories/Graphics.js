@@ -33,10 +33,10 @@ export const Graphics = () => {
                     }}>Graphics</button>
             </nav>
             <div /* Card First Row */ className='flex flex-wrap items-center justify-center gap-16 mb-14'>
-                    <iframe title="Beautiful Monster STAYC stickersheet ver 1" src="https://www.behance.net/embed/project/178201071?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                <iframe title="Beautiful Monster STAYC stickersheet ver 1" src="https://www.behance.net/embed/project/178201071?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
                 <iframe title="Beautiful Monster STAYC stickersheet ver 2"  src="https://www.behance.net/embed/project/178201179?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+            
             </div>
         </section>
-        
     )
 }

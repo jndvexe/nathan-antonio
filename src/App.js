@@ -11,9 +11,10 @@ import { Development } from './Components/Categories/Development';
 
 function App() {
   return (
+    
     <BrowserRouter>
       <body className='bg-purple text-white px-12'>
-        <Navigation />
+      <Navigation />
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/all-projects" element={<AllProjects />} />
