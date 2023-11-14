@@ -3,7 +3,8 @@ export const SplitScreen = ({
     right: Right,
 }) => {
     return (
-        <div className="flex border-2 border-cyan bg-hero-bubbles">
+        <div className="flex border-2 border-cyan bg-hero-bubbles
+                        max-sm:flex-col-reverse">
             <div className="flex-1">
                 <Left />
             </div>
