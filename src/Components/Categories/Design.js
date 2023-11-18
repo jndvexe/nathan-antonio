@@ -36,7 +36,13 @@ export const Design = () => {
                 <iframe title="Omsimity" src="https://www.behance.net/embed/project/183797165?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
                 <iframe title="E-logbook-Project" src="https://www.behance.net/embed/project/181202399?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
                 <iframe title="Palista-Project" src="https://www.behance.net/embed/project/182696837?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                
+                <iframe title="UC-Intto" src="https://www.instagram.com/p/CuJQKd2y9LL/?img_index=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                <div className="bg-white rounded-md h-[316px] w-[404px] flex items-end">
+                    <div className="bg-yellow rounded-lg h-[100px] w-[404px]">
+                        
+                        <h1>UC-Intto</h1>
+                    </div>
+                </div>
         </div>
         </section>
         

@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faInstagram, faGithub, faBehance, faFigma, faHtml5, faCss3, faJava, faReact } from '@fortawesome/free-brands-svg-icons';
 import { Footer } from "./Footer";
 import { SplitScreen } from "./SplitScreen";
 

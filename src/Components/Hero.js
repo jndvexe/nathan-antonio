@@ -11,11 +11,11 @@ export const Hero = () => {
             <p className=''>Hello! I'm Nathan and I do:</p>
             <h1 className='text-6xl max-sm:text-[40px]'>GRAPHICS, DESIGN<br />AND DEVELOPMENT</h1>
 
-            <div className='mt-4'>
-              <FontAwesomeIcon icon={faLinkedin} size="2x" style={{ marginRight: '15px' }} className='z-0 cursor-pointer transform hover:scale-110 transition duration-300 ease-in-out' onClick={() => {const externalLink = "https://www.linkedin.com/in/jonathan-david-antonio-77a525219/"; window.location.href = externalLink;}} />
-              <FontAwesomeIcon icon={faInstagram} size="2x" style={{ marginRight: '15px' }} className='z-0cursor-pointer transform hover:scale-110 transition duration-300 ease-in-out' onClick={() => { const externalLink = "https://www.instagram.com/jndv.code/"; window.location.href = externalLink;}}/>
-              <FontAwesomeIcon icon={faGithub} size="2x" style={{ marginRight: '15px' }} className='z-0 cursor-pointer transform hover:scale-110 transition duration-300 ease-in-out' onClick={() => { const externalLink = "https://github.com/jndvexe"; window.location.href = externalLink;}}/>
-              <FontAwesomeIcon icon={faBehance} size="2x" style={{ marginRight: '15px' }} className='z-0 cursor-pointer transform hover:scale-110 transition duration-300 ease-in-out' onClick={() => { const externalLink = "https://behance.com/jndvexe"; window.location.href = externalLink;}}/>
+            <div className='mt-4 z-0'>
+              <FontAwesomeIcon icon={faLinkedin} size="2x" style={{ marginRight: '15px' }} className='cursor-pointer transform hover:scale-110 transition duration-300 ease-in-out' onClick={() => {const externalLink = "https://www.linkedin.com/in/jonathan-david-antonio-77a525219/"; window.location.href = externalLink;}} />
+              <FontAwesomeIcon icon={faInstagram} size="2x" style={{ marginRight: '15px' }} className='cursor-pointer transform hover:scale-110 transition duration-300 ease-in-out' onClick={() => { const externalLink = "https://www.instagram.com/jndv.code/"; window.location.href = externalLink;}}/>
+              <FontAwesomeIcon icon={faGithub} size="2x" style={{ marginRight: '15px' }} className='cursor-pointer transform hover:scale-110 transition duration-300 ease-in-out' onClick={() => { const externalLink = "https://github.com/jndvexe"; window.location.href = externalLink;}}/>
+              <FontAwesomeIcon icon={faBehance} size="2x" style={{ marginRight: '15px' }} className='cursor-pointer transform hover:scale-110 transition duration-300 ease-in-out' onClick={() => { const externalLink = "https://behance.com/jndvexe"; window.location.href = externalLink;}}/>
             </div>
           </div>
 
