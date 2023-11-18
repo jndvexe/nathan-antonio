@@ -7,13 +7,16 @@ export const AllProjects = () => {
     return (
         <section className="px-16 pb-4">
             <div className="border-2 border-cyan bg-hero-bubbles flex justify-center items-center">
-                <h1 className="text-3xl my-4 ">Browse my works!</h1>
+                <h1 className="text-3xl my-4
+                                max-sm:text-xl">Browse my works!</h1>
                     <div>
                     </div>
             </div>
-            <nav className='grid grid-cols-4 content-center my-12 mx-14'>
+            <nav className='grid grid-cols-4 content-center my-12 mx-14
+                             max-sm:flex max-sm:flex-col max-sm:mx-0 max-sm:gap-4'>
                 <button 
-                    className='hover:border-b-4 hover:border-cyan'
+                    className='hover:border-b-4 hover:border-cyan
+                                max-sm:hover:border-b-4 max-sm:hover:border-cyan'
                     onClick={() => {
                         navigate('/all-projects');
                     }}>All</button>
