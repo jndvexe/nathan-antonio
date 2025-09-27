@@ -19,8 +19,10 @@ module.exports = {
       'Palista-card': "url('/public/Palista-card')",
       'nathan-portrait': "url('/public/IMG_9981-removebg-preview 1.png')",
       'nathan-yellow-shadow': "url('/public/Vectpr 2.png')",
+      'image-icon': "url('/public/img_placeholder.png')",
     }
   },
   plugins: [],
+
 }
 
