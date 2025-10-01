@@ -13,7 +13,7 @@ function App() {
   return (
     
     <BrowserRouter>
-      <body className='bg-purple text-white'>
+      <body className='bg-white text-white'>
       <Navigation />
           <Routes>
             <Route path="/" element={<Hero />} />

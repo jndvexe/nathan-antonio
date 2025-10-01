@@ -19,11 +19,7 @@ export const Navigation = () => {
     };
 
     return (
-        <header className='z-999 relative sticky top-0 z-999 mb-10 py-10 flex flex justify-center items-center bg-purple border-b-4 border-cyan 
-                          md:gap-20
-                          max-sm:flex-col max-sm:items-center max-sm:gap-4'>
-
-              
+        <header className='z-999 absolute sticky top-0 z-999 py-4 flex flex justify-center items-center md:gap-20 max-sm:flex-col max-sm:items-center max-sm:gap-4 shadow-sm bg-white'>
               <div className='max-sm:flex max-sm:align-center max-sm:justify-center w-20 h-15'>
                 <img 
                   src="/nathan-logo.png" 
@@ -56,23 +52,23 @@ export const Navigation = () => {
               </div>
               
 
-              <nav className=''>
+              <nav className='text-black'>
                 <ul className='flex gap-12 mx-[10px]
                               max-sm:gap-8'>
-                  <li className="hover:border-b-4 hover:border-cyan">
+                  <li className="hover:text-red">
                     <Link to="/">Home</Link>
                   </li>
-                  <li className="hover:border-b-4 hover:border-cyan">
+                  <li className="hover:text-red">
                     <Link to="/all-projects">All Projects</Link>
                   </li>
-                  <li className="hover:border-b-4 hover:border-cyan">
+                  <li className="hover:text-red">
                     <Link to="/aboutme">About Me</Link>
                   </li>
                 </ul>
               </nav>
 
               
-              <button className=' z-0 w-40 h-10 rounded-md bg-yellow text-purple font-bold cursor-pointer transform hover:scale-110 transition duration-300 ease-in-out'
+              <button className=' z-0 w-40 h-10 rounded-md bg-red text-white font-normal cursor-pointer transform hover:scale-110 transition duration-300 ease-in-out'
                 onClick={handleEmailClick}
               >Contact Me</button>
       </header>
